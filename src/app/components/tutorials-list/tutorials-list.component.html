@@ -3,7 +3,7 @@
         <h4>Tutorials List</h4>
         <ul class="list-group">
             <li class="list-group-item" *ngFor="let tutorial of tutorials; let i = index"
-                [class.active]="i === currentIdex" (click)="setActiveTutorial(tutorial, i)">
+                [class.active]="i === currentIndex" (click)="setActiveTutorial(tutorial, i)">
                 {{tutorial.title}}
             </li>
         </ul>
